@@ -222,33 +222,60 @@ h3{
 
 }
 
-/*----- Facilities -----*/
+/*----- Affiliation -----*/
 
-.facilities{
+.affiliation{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
-.facilities-col{
-    flex-basis: 31%;
+.affiliation-col {
+    flex-basis: 32%;
     border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-}
-.facilities-col img{
-width: 100%;
-border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
 }
 
-.facilities-col p{
-    padding: 0;
+.affiliation-col img{
+    width: 100%;
+    display: block;
 }
-.facilities-col h3{
-   margin-top: 16px;
-   margin-bottom: 15px;
-    text-align: left;
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+
+}
+
+.layer:hover{
+    background: rgba(0, 226, 117, 0.868);
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: black;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+
 }
 
 
