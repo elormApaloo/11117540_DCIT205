@@ -30,6 +30,34 @@ As per instructions, there are 10 distinct pages:
 
 
 
+Setup Instructions
+
+1.  Navigate to the repository page on GitHub;
+      https://github.com/YOUR DETAILS/_DCIT205
+
+2. Click the green Code button on github and copy the URL for the repository.
+
+3. Open your terminal or command prompt and change directories to the location where you want to clone the repository: 
+           cd Documents/Projects
+
+4. Run the git clone command and paste the URL:
+ git clone https://github.com/YOUR DETAILS/_DCIT205
+
+5. The project files will be cloned to a folder called YOUR ID_DCIT205 locally.
+
+6.  Change to the directory where you want the cloned project to be located: 
+cd YOUR ID_DCIT205
+
+7. To check if it cloned successfully, type git remote -v which will show the origin URL.
+
+8. You now have the full project code on your machine. To keep it synced with commits on GitHub, type git pull to fetch updates.
+
+
+
+
+
+
+
 
 What I've Learned:
 Throughout the development of this project, I gained valuable experience in:
