@@ -1,4 +1,5 @@
-<img width="960" alt="Screenshot 21" src="https://github.com/elormApaloo/11117540_DCIT205/assets/128927771/4d261506-49e0-4962-94c1-e5ca68918fef"><img width="948" alt="Screenshot 11" src="https://github.com/elormApaloo/11117540_DCIT205/assets/128927771/44b132a4-a0a1-4dd5-b430-37b3d62fef03"># DCIT_205_IA
+# DCIT_205_IA
+
 Welcome to the University of Ghana Department of Computer Science Website. This project was created as part of my DCIT 205 course for my IA
 
 Project Details:
